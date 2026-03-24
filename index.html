@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hanifa & Johnson | Wedding Celebration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">Hanifa <span>&</span> Johnson</div>
+      <div class="nav-links">
+        <a href="#story">Our Story</a>
+        <a href="#details">Details</a>
+        <a href="#rsvp">RSVP</a>
+        <a href="#gift">Gift</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">Together with joy and gratitude</p>
+        <h1>We’re Getting Married</h1>
+        <p class="subtitle">
+          Join Hanifa and Johnson as we celebrate love, family, and a beautiful new beginning.
+        </p>
+
+        <div class="event-card">
+          <div>
+            <span class="label">Wedding Date</span>
+            <strong>To Be Added</strong>
+          </div>
+          <div>
+            <span class="label">Venue</span>
+            <strong>To Be Added</strong>
+          </div>
+          <div>
+            <span class="label">City</span>
+            <strong>To Be Added</strong>
+          </div>
+        </div>
+
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#rsvp">RSVP Now</a>
+          <a class="btn btn-secondary" href="#gift">Send a Gift</a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap">
+        <img src="assets/couple-photo.jpeg" alt="Hanifa and Johnson wedding photo" class="hero-image" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section story" id="story">
+      <div class="section-heading">
+        <p class="eyebrow">Our Story</p>
+        <h2>A Love Worth Celebrating</h2>
+      </div>
+      <div class="story-grid">
+        <div class="story-card">
+          <h3>The Journey</h3>
+          <p>
+            Every beautiful love story is built on friendship, laughter, prayer, and shared dreams.
+            Hanifa and Johnson are excited to celebrate this special chapter with the people who mean the most to them.
+          </p>
+        </div>
+        <div class="story-card">
+          <h3>The Celebration</h3>
+          <p>
+            This wedding website is your place for event details, RSVP updates, and gift information.
+            More details can be added as plans are finalized.
+          </p>
+        </div>
+        <div class="story-card">
+          <h3>A Note to Guests</h3>
+          <p>
+            Your love, prayers, and presence mean so much. Thank you for being part of this memorable occasion.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section details" id="details">
+      <div class="section-heading">
+        <p class="eyebrow">Wedding Details</p>
+        <h2>Plan With Us</h2>
+      </div>
+
+      <div class="details-grid">
+        <article class="detail-box">
+          <h3>Ceremony</h3>
+          <p><strong>Date:</strong> To be added</p>
+          <p><strong>Time:</strong> To be added</p>
+          <p><strong>Location:</strong> To be added</p>
+        </article>
+
+        <article class="detail-box">
+          <h3>Reception</h3>
+          <p><strong>Date:</strong> To be added</p>
+          <p><strong>Time:</strong> To be added</p>
+          <p><strong>Location:</strong> To be added</p>
+        </article>
+
+        <article class="detail-box">
+          <h3>Dress Code</h3>
+          <p>Elegant / Formal</p>
+          <p>Feel free to coordinate with the celebration colors once shared by the couple.</p>
+        </article>
+
+        <article class="detail-box">
+          <h3>Travel & Stay</h3>
+          <p>Add hotel recommendations, directions, or parking details here for guests traveling from out of town.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section rsvp" id="rsvp">
+      <div class="section-heading">
+        <p class="eyebrow">RSVP</p>
+        <h2>Let Us Know You’re Coming</h2>
+      </div>
+
+      <div class="form-wrap">
+        <form id="rsvpForm" class="glass-form">
+          <div class="form-grid">
+            <div class="field">
+              <label for="guestName">Full Name</label>
+              <input type="text" id="guestName" name="guestName" placeholder="Enter your full name" required />
+            </div>
+            <div class="field">
+              <label for="guestEmail">Email</label>
+              <input type="email" id="guestEmail" name="guestEmail" placeholder="Enter your email" required />
+            </div>
+            <div class="field">
+              <label for="guestPhone">Phone</label>
+              <input type="tel" id="guestPhone" name="guestPhone" placeholder="Enter your phone number" />
+            </div>
+            <div class="field">
+              <label for="attendance">Attendance</label>
+              <select id="attendance" name="attendance" required>
+                <option value="">Choose one</option>
+                <option value="Attending">Attending</option>
+                <option value="Not Attending">Not Attending</option>
+                <option value="Maybe">Maybe</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="guestCount">Number of Guests</label>
+              <input type="number" id="guestCount" name="guestCount" min="1" max="10" value="1" />
+            </div>
+            <div class="field">
+              <label for="mealChoice">Meal Preference</label>
+              <select id="mealChoice" name="mealChoice">
+                <option value="">Select meal preference</option>
+                <option value="Chicken">Chicken</option>
+                <option value="Beef">Beef</option>
+                <option value="Fish">Fish</option>
+                <option value="Vegetarian">Vegetarian</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">Message for the Couple</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write a kind message..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit RSVP</button>
+          <p id="rsvpStatus" class="status"></p>
+        </form>
+
+        <div class="side-note">
+          <h3>Need a real RSVP backend?</h3>
+          <p>
+            This version saves RSVP responses in your browser for demo use. To collect guest responses online,
+            connect it to a backend such as Railway, Firebase, Supabase, or Google Sheets.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gift" id="gift">
+      <div class="section-heading">
+        <p class="eyebrow">Gift & Pledge</p>
+        <h2>Support Our New Journey</h2>
+      </div>
+
+      <div class="gift-layout">
+        <div class="gift-card">
+          <h3>Interac e-Transfer</h3>
+          <p>Your presence is a gift, and if you would like to bless the couple with a pledge or gift, you can send an Interac e-Transfer to:</p>
+          <div class="interac-box">
+            <span id="interacEmail">sentamurobinjohnson@gmail.com</span>
+            <button id="copyEmailBtn" class="btn btn-secondary btn-small" type="button">Copy Email</button>
+          </div>
+          <p class="hint">Please include your name in the transfer note so the couple can thank you properly.</p>
+        </div>
+
+        <form id="pledgeForm" class="glass-form">
+          <h3>Gift / Pledge Form</h3>
+          <div class="preset-amounts">
+            <button type="button" class="amount-btn" data-amount="50">$50</button>
+            <button type="button" class="amount-btn" data-amount="100">$100</button>
+            <button type="button" class="amount-btn" data-amount="200">$200</button>
+            <button type="button" class="amount-btn" data-amount="500">$500</button>
+          </div>
+
+          <div class="field">
+            <label for="giverName">Your Name</label>
+            <input type="text" id="giverName" name="giverName" placeholder="Enter your name" required />
+          </div>
+
+          <div class="field">
+            <label for="giverAmount">Pledge Amount (CAD)</label>
+            <input type="number" id="giverAmount" name="giverAmount" min="1" placeholder="Enter amount" required />
+          </div>
+
+          <div class="field">
+            <label for="giverMessage">Gift Message</label>
+            <textarea id="giverMessage" name="giverMessage" rows="3" placeholder="Add a short blessing or note"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Save My Pledge</button>
+          <p id="pledgeStatus" class="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section faq">
+      <div class="section-heading">
+        <p class="eyebrow">Questions</p>
+        <h2>Helpful Information</h2>
+      </div>
+      <div class="details-grid">
+        <article class="detail-box">
+          <h3>Can I bring a plus one?</h3>
+          <p>Please follow your invitation details. You can also note your guest count in the RSVP form.</p>
+        </article>
+        <article class="detail-box">
+          <h3>How do I send a gift?</h3>
+          <p>Use the Interac email provided above and add your name in the transfer note.</p>
+        </article>
+        <article class="detail-box">
+          <h3>When will final details be shared?</h3>
+          <p>Update this page with the confirmed wedding date, venue, and timing once everything is finalized.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>With love, Hanifa & Johnson</p>
+    <p class="footer-note">Made for your wedding celebration website.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
